@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+}
+.box{
+    margin: 1rem auto;
+    padding: 3rem;
+    background: white;
+    border-radius: 2rem;
+    width: 50rem;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.name{
+    font-weight: 400;
+    margin: 0;
+}
+.header-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.header-right{
+   width: 100%;
+   display: grid;
+   justify-items: end;
+}
+.header-right p{
+    display: inline;
+}
+
+.icon{
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.blue{
+    background: purple;
+    padding: 0.5rem;
+    color: white;
+}
+table {
+    border: 1px solid black;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid black;
+    padding: 15px
+   
+}
